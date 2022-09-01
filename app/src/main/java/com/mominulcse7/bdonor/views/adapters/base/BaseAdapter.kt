@@ -1,14 +1,11 @@
-package com.mominulcse7.bdonor.views.adapters
+package com.mominulcse7.bdonor.views.adapters.base
 
-import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.annotation.LayoutRes
 import androidx.recyclerview.widget.RecyclerView
-import com.example.reea.base.EmptyHolder
+import androidx.viewbinding.ViewBinding
 
-abstract class BaseAdapter(@LayoutRes private val resource: Int) :
-    RecyclerView.Adapter<EmptyHolder>() {
+abstract class BaseAdapter() : RecyclerView.Adapter<EmptyHolder>() {
 
     private var items: MutableList<Any> = ArrayList()
 
@@ -16,16 +13,17 @@ abstract class BaseAdapter(@LayoutRes private val resource: Int) :
         override fun onAdapterItemClick(itemView: View, any: Any, position: Int, button: String) {}
     }
 
-    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int) =
-        EmptyHolder(LayoutInflater.from(parent.context).inflate(resource, parent, false))
-
-    override fun getItemCount() = items.size
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int) = inflater(parent, viewType)
 
     override fun onBindViewHolder(holder: EmptyHolder, position: Int) {
-        bindView(holder.itemView, items[position], position)
+        bindView(holder.viewBinding, items[position], position)
     }
 
-    abstract fun bindView(view: View, any: Any, position: Int = 0)
+    abstract fun bindView(view: ViewBinding, any: Any, position: Int = 0)
+
+    abstract fun inflater(parent: ViewGroup, viewType: Int): EmptyHolder
+
+    override fun getItemCount() = items.size
 
     fun setItemList(itemList: MutableList<Any>) {
         items = itemList
@@ -47,7 +45,7 @@ abstract class BaseAdapter(@LayoutRes private val resource: Int) :
         notifyDataSetChanged()
     }
 
-    fun setItemClickListener(itemClickListener: ClickListener) {
-        this.clickListener = itemClickListener
+    fun setAdapterClickListener(adapterClickListener: ClickListener) {
+        this.clickListener = adapterClickListener
     }
 }

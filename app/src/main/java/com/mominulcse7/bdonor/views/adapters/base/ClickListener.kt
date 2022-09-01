@@ -1,4 +1,4 @@
-package com.mominulcse7.bdonor.views.adapters
+package com.mominulcse7.bdonor.views.adapters.base
 
 import android.view.View
 

@@ -7,6 +7,7 @@
         <entry key="app/src/main/res/drawable/ic_home.xml" value="0.187" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="app/src/main/res/layout/fragment_posts.xml" value="0.35625" />
+        <entry key="app/src/main/res/layout/raw_post.xml" value="0.35520833333333335" />
         <entry key="app/src/main/res/layout/toolbar.xml" value="0.35625" />
         <entry key="app/src/main/res/menu/menu_bottom_nav.xml" value="0.35520833333333335" />
       </map>
