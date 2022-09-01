@@ -12,10 +12,10 @@
     <color name="colorPrimaryDark">#FD1C0B</color>
     <color name="colorAccent">#E91E63</color>
 
-    <color name="cToolbar">#3F51B5</color>
+    <color name="cToolbar">#FD1C0B</color>
     <color name="cToolbarText">#FFFFFF</color>
     <color name="cIcon">#FFFFFF</color>
-    <color name="cIconColor">#673AB7</color>
+    <color name="cIconColor">#FD1C0B</color>
     <color name="cFragmentBackground">#FBFAFA</color>
 
     <color name="cWhite">#FFFFFF</color>

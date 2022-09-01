@@ -1,0 +1,330 @@
+{
+  "project_info": {
+    "project_number": "908952871930",
+    "project_id": "notepad-25af4",
+    "storage_bucket": "notepad-25af4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:908952871930:android:8a766246b88186c6673a43",
+        "android_client_info": {
+          "package_name": "com.mominulcse7.agecalculator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "908952871930-chbi3ut827eg2771ep2q60e386tde662.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mominulcse7.agecalculator",
+            "certificate_hash": "b5a95d2b42309f925e89cb54a95b4300d30a2e55"
+          }
+        },
+        {
+          "client_id": "908952871930-hkjlm9afj3kptqguv72c84d3g5bf7o67.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mominulcse7.agecalculator",
+            "certificate_hash": "0ecdee1daa8d581a34e256744c9b2430fed1df0a"
+          }
+        },
+        {
+          "client_id": "908952871930-vqp5l9nulo8cp2skskaabpr7hs8nthp7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFZplYulO6hBc0jq0A2GuoUgYrREDJX3k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "908952871930-vqp5l9nulo8cp2skskaabpr7hs8nthp7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:908952871930:android:30c4c795972d16bf673a43",
+        "android_client_info": {
+          "package_name": "com.mominulcse7.bdonor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "908952871930-lljnk0sh3fppk78fav9aedager2tsrh9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mominulcse7.bdonor",
+            "certificate_hash": "b98bfef479a9239646c89194596664c80c9edcec"
+          }
+        },
+        {
+          "client_id": "908952871930-vqp5l9nulo8cp2skskaabpr7hs8nthp7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFZplYulO6hBc0jq0A2GuoUgYrREDJX3k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "908952871930-vqp5l9nulo8cp2skskaabpr7hs8nthp7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:908952871930:android:31f713789857dedb673a43",
+        "android_client_info": {
+          "package_name": "com.mominulcse7.counter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "908952871930-kr2ubvrl1emqtkj7kcf1k9gh0f0jqtr5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mominulcse7.counter",
+            "certificate_hash": "8e98776193f18a8f35cdbf68e154657623964b01"
+          }
+        },
+        {
+          "client_id": "908952871930-vqp5l9nulo8cp2skskaabpr7hs8nthp7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFZplYulO6hBc0jq0A2GuoUgYrREDJX3k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "908952871930-vqp5l9nulo8cp2skskaabpr7hs8nthp7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:908952871930:android:9f68275f38f7951a673a43",
+        "android_client_info": {
+          "package_name": "com.mominulcse7.flashlight"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "908952871930-ldtr49nbhgcka3cv2cttgubhl2pujs1e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mominulcse7.flashlight",
+            "certificate_hash": "64841fc7039c1b68dab85b9521947ad86a64929f"
+          }
+        },
+        {
+          "client_id": "908952871930-vqp5l9nulo8cp2skskaabpr7hs8nthp7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFZplYulO6hBc0jq0A2GuoUgYrREDJX3k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "908952871930-vqp5l9nulo8cp2skskaabpr7hs8nthp7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:908952871930:android:b1acddbdc626e816673a43",
+        "android_client_info": {
+          "package_name": "com.mominulcse7.internetspeedmeter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "908952871930-612poacoiu2esd8slvtakbquo8mt3j0k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mominulcse7.internetspeedmeter",
+            "certificate_hash": "6805838cb6b48d87fb662d7e0614f8ba87dbfbe1"
+          }
+        },
+        {
+          "client_id": "908952871930-vqp5l9nulo8cp2skskaabpr7hs8nthp7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFZplYulO6hBc0jq0A2GuoUgYrREDJX3k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "908952871930-vqp5l9nulo8cp2skskaabpr7hs8nthp7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:908952871930:android:f9a9c196febaef71673a43",
+        "android_client_info": {
+          "package_name": "com.mominulcse7.notepad"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "908952871930-0a0ffgok434e2jjpkvahhsv5gcn3115f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mominulcse7.notepad",
+            "certificate_hash": "53292047b71fda348aac2df80accd64f3963ba04"
+          }
+        },
+        {
+          "client_id": "908952871930-6qulpto9ubh42fnmaimptc86d1srq8fc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mominulcse7.notepad",
+            "certificate_hash": "13b9effe3ec11fd41c06e10854bbcee802bab2e4"
+          }
+        },
+        {
+          "client_id": "908952871930-v2g117j608pv7kvup3dj990j01g734fl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mominulcse7.notepad",
+            "certificate_hash": "b5a95d2b42309f925e89cb54a95b4300d30a2e55"
+          }
+        },
+        {
+          "client_id": "908952871930-vqp5l9nulo8cp2skskaabpr7hs8nthp7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFZplYulO6hBc0jq0A2GuoUgYrREDJX3k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "908952871930-vqp5l9nulo8cp2skskaabpr7hs8nthp7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:908952871930:android:dd5d04feb8d3477e673a43",
+        "android_client_info": {
+          "package_name": "com.mominulcse7.qrscan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "908952871930-vqp5l9nulo8cp2skskaabpr7hs8nthp7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFZplYulO6hBc0jq0A2GuoUgYrREDJX3k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "908952871930-vqp5l9nulo8cp2skskaabpr7hs8nthp7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:908952871930:android:f79cc23c5b05dbf9673a43",
+        "android_client_info": {
+          "package_name": "com.mominulcse7.touchlocker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "908952871930-20pkuiu2utrrte084kdr9cmtsf8sho85.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mominulcse7.touchlocker",
+            "certificate_hash": "e9655e8e0c1c42d04923ff24a4d808ceba0737fb"
+          }
+        },
+        {
+          "client_id": "908952871930-rrh50hmsf22kb72fjeu4qlbtr8n2anek.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mominulcse7.touchlocker",
+            "certificate_hash": "c1a4f39fbb764afd706c3e134fdd9b1c825bf40e"
+          }
+        },
+        {
+          "client_id": "908952871930-vqp5l9nulo8cp2skskaabpr7hs8nthp7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFZplYulO6hBc0jq0A2GuoUgYrREDJX3k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "908952871930-vqp5l9nulo8cp2skskaabpr7hs8nthp7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

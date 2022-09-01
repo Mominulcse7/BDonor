@@ -4,6 +4,8 @@ plugins {
     id 'kotlin-android'
     id 'kotlin-kapt'
     id 'dagger.hilt.android.plugin'
+    id 'com.google.gms.google-services'
+    id 'com.google.firebase.crashlytics'
 }
 
 android {
@@ -91,4 +93,11 @@ dependencies {
     //paging
     implementation "androidx.paging:paging-common-ktx:3.1.1"
     implementation "androidx.paging:paging-runtime-ktx:3.1.1"
+
+    //firebase
+    implementation 'com.google.firebase:firebase-analytics-ktx:21.1.0'
+    implementation 'com.google.firebase:firebase-auth-ktx:21.0.7'
+    implementation 'com.google.firebase:firebase-crashlytics-ktx:18.2.12'
+    implementation 'com.google.firebase:firebase-messaging-ktx:23.0.7'
+    implementation 'com.google.firebase:firebase-config-ktx:21.1.1'
 }
