@@ -4,7 +4,7 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil
 import androidx.viewbinding.ViewBinding
-import com.mominulcse7.bdonor.databinding.RawPostBinding
+import com.mominulcse7.bdonor.databinding.ItemPostBinding
 import com.mominulcse7.bdonor.model.PostModel
 import com.mominulcse7.bdonor.views.adapters.base.BasePagingAdapter
 import com.mominulcse7.bdonor.views.adapters.base.EmptyHolder
@@ -13,10 +13,9 @@ import javax.inject.Inject
 class PostA @Inject constructor() :
     BasePagingAdapter<PostModel>(ARTICLE_DIFF_CALLBACK) {
 
-
     override fun inflater(parent: ViewGroup, viewType: Int): EmptyHolder {
         return EmptyHolder(
-            RawPostBinding.inflate(
+            ItemPostBinding.inflate(
                 LayoutInflater.from(parent.context),
                 parent,
                 false
@@ -24,9 +23,9 @@ class PostA @Inject constructor() :
         )
     }
 
-    override fun bindView(binding: ViewBinding, any: PostModel, position: Int) {
-        with(binding as RawPostBinding) {
-            tvName.text = "Title: "
+    override fun bindView(viewBinding: ViewBinding, any: PostModel, position: Int) {
+        with(viewBinding as ItemPostBinding) {
+//            tvName.text = "Title: "
 
             tvName.setOnClickListener {
                 clickListener.onAdapterItemClick(
