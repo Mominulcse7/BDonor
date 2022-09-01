@@ -1,3 +1,19 @@
 <resources>
     <string name="app_name">BDonor</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="alert">Alert!</string>
+    <string name="open_settings">Open Settings</string>
+    <string name="no_internet">No internet!</string>
+    <string name="turn_on_internet">Turn on your internet connection.</string>
+
+    <string name="d_open">open</string>
+    <string name="d_close">close</string>
+
+    <string name="no_response_host">No response from Github. Try again after sometime.</string>
+    <string name="unknown_error">Unknown error. Try again!.</string>
+    <string name="unauthorized_error">Unauthorized error!.</string>
+    <string name="request_rejected">Request rejected!.</string>
+    <string name="json_convert_error">Json convert error!.</string>
+    <string name="time_out_error">Connection timeout due to slow internet connection. Please try again.</string>
 </resources>
