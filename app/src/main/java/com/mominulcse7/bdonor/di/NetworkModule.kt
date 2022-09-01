@@ -17,13 +17,14 @@ import java.util.concurrent.TimeUnit
 class NetworkModule {
 
     @Provides
-    fun providesRetrofit(httpLoggingInterceptor: HttpLoggingInterceptor): Retrofit {
+    fun providesRetrofit(httpLoggingInterceptor: HttpLoggingInterceptor, authInterceptor: AuthInterceptor): Retrofit {
 
         val httpClient = OkHttpClient.Builder()
             .readTimeout(60, TimeUnit.SECONDS)
             .writeTimeout(60, TimeUnit.SECONDS)
             .connectTimeout(60, TimeUnit.SECONDS)
             .addInterceptor(httpLoggingInterceptor)
+            .addInterceptor(authInterceptor)
 
         val okHttpClient = httpClient.build()
 
@@ -48,6 +49,4 @@ class NetworkModule {
     fun providesUserAPI(retrofit: Retrofit): ApiService {
         return retrofit.create(ApiService::class.java)
     }
-
-
 }
