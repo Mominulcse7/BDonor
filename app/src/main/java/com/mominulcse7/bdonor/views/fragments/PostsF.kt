@@ -6,7 +6,6 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.viewModels
-import com.mominulcse7.bdonor.R
 import com.mominulcse7.bdonor.databinding.FragmentPostsBinding
 import com.mominulcse7.bdonor.viewModel.HomeViewModel
 

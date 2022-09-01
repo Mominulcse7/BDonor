@@ -7,13 +7,13 @@
 
     <fragment
         android:id="@+id/loginF"
-        android:name="com.mominulcse7.bdonor.LoginF"
+        android:name="com.mominulcse7.bdonor.views.fragments.LoginF"
         android:label="fragment_login"
         tools:layout="@layout/fragment_login" />
 
     <fragment
         android:id="@+id/postsF"
-        android:name="com.mominulcse7.bdonor.PostsF"
+        android:name="com.mominulcse7.bdonor.views.fragments.PostsF"
         android:label="fragment_posts"
         tools:layout="@layout/fragment_posts" >
         <action
