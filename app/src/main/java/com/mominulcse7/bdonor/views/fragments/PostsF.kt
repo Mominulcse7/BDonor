@@ -16,8 +16,10 @@ import com.mominulcse7.bdonor.databinding.FragmentPostsBinding
 import com.mominulcse7.bdonor.viewModel.HomeViewModel
 import com.mominulcse7.bdonor.views.adapters.PostA
 import com.mominulcse7.bdonor.views.adapters.base.ClickListener
+import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.launch
 
+@AndroidEntryPoint
 class PostsF : Fragment(), ClickListener {
 
     private lateinit var binding: FragmentPostsBinding
