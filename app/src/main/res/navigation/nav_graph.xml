@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/postsF">
+
+    <fragment
+        android:id="@+id/loginF"
+        android:name="com.mominulcse7.bdonor.LoginF"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" />
+
+    <fragment
+        android:id="@+id/postsF"
+        android:name="com.mominulcse7.bdonor.PostsF"
+        android:label="fragment_posts"
+        tools:layout="@layout/fragment_posts" >
+        <action
+            android:id="@+id/action_postsF_to_loginF"
+            app:destination="@id/loginF" />
+    </fragment>
+
+</navigation>

@@ -16,4 +16,6 @@
     <string name="request_rejected">Request rejected!.</string>
     <string name="json_convert_error">Json convert error!.</string>
     <string name="time_out_error">Connection timeout due to slow internet connection. Please try again.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
