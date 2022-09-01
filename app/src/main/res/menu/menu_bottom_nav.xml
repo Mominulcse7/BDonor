@@ -14,9 +14,9 @@
         android:title="" />
 
     <item
-        android:id="@+id/message"
-        android:icon="@drawable/ic_message"
-        android:title="@string/message" />
+        android:id="@+id/mProfile"
+        android:icon="@drawable/ic_person_pin"
+        android:title="@string/profile" />
     <item
         android:id="@+id/settings"
         android:icon="@drawable/ic_settings"

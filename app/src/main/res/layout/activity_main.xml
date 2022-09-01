@@ -19,8 +19,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom"
-        app:fabCradleMargin="10dp"
-        app:fabCradleRoundedCornerRadius="10dp"
+        app:fabCradleMargin="7dp"
+        app:fabCradleRoundedCornerRadius="7dp"
         app:fabCradleVerticalOffset="0dp">
 
         <com.google.android.material.bottomnavigation.BottomNavigationView
@@ -38,8 +38,11 @@
         android:id="@+id/fab"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorPrimary"
         android:contentDescription="@string/home"
         android:src="@drawable/ic_logo"
-        app:layout_anchor="@id/appBar" />
+        android:tint="@color/cWhite"
+        app:layout_anchor="@id/appBar"
+        app:tint="@color/cWhite" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
