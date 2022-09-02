@@ -9,7 +9,10 @@
         <entry key="app/src/main/res/drawable-v24/ic_google_gmail_search.xml" value="0.1" />
         <entry key="app/src/main/res/drawable-v24/ic_logout.xml" value="0.1005" />
         <entry key="app/src/main/res/drawable-v24/ic_notification_color.xml" value="0.1005" />
+        <entry key="app/src/main/res/drawable/a_blood_request_red24.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/border_white.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/btn_rpl_toolbar_20dp.xml" value="0.193" />
+        <entry key="app/src/main/res/drawable/button_gradiant_1.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/ic_accept_ok_valid.xml" value="0.193" />
         <entry key="app/src/main/res/drawable/ic_alert.xml" value="0.193" />
         <entry key="app/src/main/res/drawable/ic_filter_color2.xml" value="0.193" />
@@ -24,10 +27,12 @@
         <entry key="app/src/main/res/drawable/ic_refresh_reload.xml" value="0.193" />
         <entry key="app/src/main/res/drawable/ic_search.xml" value="0.193" />
         <entry key="app/src/main/res/drawable/ic_settings.xml" value="0.193" />
+        <entry key="app/src/main/res/drawable/rpl_blood_blood_blue_5dp.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/rpl_blood_white_blue_5dp.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.165" />
         <entry key="app/src/main/res/layout/fragment_login.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_notification.xml" value="0.28229166666666666" />
-        <entry key="app/src/main/res/layout/fragment_posts.xml" value="0.35625" />
+        <entry key="app/src/main/res/layout/fragment_posts.xml" value="0.125" />
         <entry key="app/src/main/res/layout/fragment_profile.xml" value="0.28229166666666666" />
         <entry key="app/src/main/res/layout/fragment_settings.xml" value="0.28229166666666666" />
         <entry key="app/src/main/res/layout/raw_post.xml" value="0.35520833333333335" />
