@@ -15,7 +15,7 @@
         app:navGraph="@navigation/nav_graph" />
 
     <com.google.android.material.bottomappbar.BottomAppBar
-        android:id="@+id/appBar"
+        android:id="@+id/bottomAppBar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom"
@@ -35,14 +35,14 @@
     </com.google.android.material.bottomappbar.BottomAppBar>
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/fab"
+        android:id="@+id/floatingActionButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/colorPrimary"
         android:contentDescription="@string/home"
         android:src="@drawable/ic_logo"
         android:tint="@color/cWhite"
-        app:layout_anchor="@id/appBar"
+        app:layout_anchor="@id/bottomAppBar"
         app:tint="@color/cWhite" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

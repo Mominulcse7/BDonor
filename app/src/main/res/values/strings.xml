@@ -22,4 +22,18 @@
     <string name="message">Message</string>
     <string name="setting">Setting</string>
     <string name="profile">Profile</string>
+
+
+    <string name="sign_in_with_gmail">Sign in with Google</string>
+    <string name="by_sign_in_terms_privacy">By signing in, you agree with our</string>
+    <string name="by_sign_in_terms_privacy2">Terms of service and Privacy Policy.</string>
+    <string name="failed_to_get_data_retrofit"><![CDATA[Failed to get data. Check your internet connection.]]></string>
+    <string name="failed_to_get_data_try_again_retrofit"><![CDATA[Failed to get data. Check your internet connection & try again.]]></string>
+    <string name="loading_data_plz_wait">Loading data. Please wait…</string>
+    <string name="login_expired_login_again">Login session expired. Please login again.</string>
+    <string name="donate_blood_save_life">Donate Blood, Save Life</string>
+    <string name="donate_blood">Donate Blood</string>
+    <string name="find_blood">Find Blood</string>
+    <string name="connecting_blood_donors_with_recipients">Connecting blood donors with recipients</string>
+
 </resources>
