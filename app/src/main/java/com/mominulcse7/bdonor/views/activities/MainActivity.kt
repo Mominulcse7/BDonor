@@ -241,7 +241,10 @@ class MainActivity : AppCompatActivity(), NavigationBarView.OnItemSelectedListen
                 findNavController(R.id.navHostFragment).navigate(R.id.notificationF)
             }
             R.id.mProfile -> {
-                findNavController(R.id.navHostFragment).navigate(R.id.profileF)
+                if (loginPreference.gApiToken().isEmpty())
+                    findNavController(R.id.navHostFragment).navigate(R.id.loginF)
+                else
+                    findNavController(R.id.navHostFragment).navigate(R.id.profileF)
             }
             R.id.mSettings -> {
                 findNavController(R.id.navHostFragment).navigate(R.id.settingsF)
