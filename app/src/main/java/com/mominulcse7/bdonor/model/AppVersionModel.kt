@@ -6,7 +6,7 @@ class AppVersionModel: ApiDataModel() {
     var versionName: String? = ""
     var isUpdateMandatory: Int? = 0
     var isUnderMaintenance: Int? = 0
-    var title: String? = ""
-    var maintenanceMsg: String? = ""
+    var title: String? = "Update available."
+    var maintenanceMsg: String? = "Please update your app."
     var createdAt: String? = ""
 }

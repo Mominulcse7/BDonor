@@ -25,14 +25,16 @@ android {
     buildTypes {
         release {
             buildConfigField "String", "BASE_URL", BaseUrlLive
-            buildConfigField "String", "API_VERSION", ApiVersion
+            buildConfigField "String", "IMAGE_URL", BaseUrlImageLive
+            buildConfigField "String", "API_VERSION", ApiVersionLive
             minifyEnabled true
             shrinkResources true
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
         debug {
             buildConfigField "String", "BASE_URL", BaseUrlTest
-            buildConfigField "String", "API_VERSION", ApiVersion
+            buildConfigField "String", "IMAGE_URL", BaseUrlImageTest
+            buildConfigField "String", "API_VERSION", ApiVersionTest
             minifyEnabled false
             shrinkResources false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
@@ -100,6 +102,7 @@ dependencies {
     implementation 'com.google.firebase:firebase-crashlytics-ktx:18.2.12'
     implementation 'com.google.firebase:firebase-messaging-ktx:23.0.7'
     implementation 'com.google.firebase:firebase-config-ktx:21.1.1'
+    implementation 'com.google.android.gms:play-services-auth:20.2.0'
 
 
     implementation 'com.github.denzcoskun:ImageSlideshow:0.1.0'

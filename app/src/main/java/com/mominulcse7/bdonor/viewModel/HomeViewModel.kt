@@ -7,7 +7,11 @@ import androidx.paging.Pager
 import androidx.paging.PagingConfig
 import androidx.paging.cachedIn
 import androidx.paging.liveData
+import com.mominulcse7.bdonor.apiResponse.RpHomeDataModel
 import com.mominulcse7.bdonor.apiResponse.RpPostModelList
+import com.mominulcse7.bdonor.apiResponse.RpUserModel
+import com.mominulcse7.bdonor.model.HomeDataModel
+import com.mominulcse7.bdonor.model.UserModel
 import com.mominulcse7.bdonor.network.ApiService
 import com.mominulcse7.bdonor.pagination.PostSource
 import com.mominulcse7.bdonor.utils.ConstantKeys.INITIAL_LOAD_SIZE
@@ -21,7 +25,28 @@ class HomeViewModel @Inject constructor(
     private val apiService: ApiService,
     private val postSource: PostSource
 ) : BaseViewModel() {
+
+    val liveRpHomeDataModel = MutableLiveData<RpHomeDataModel>()
     val liveRpPostModelList = MutableLiveData<RpPostModelList>()
+    val liveRpUserModel = MutableLiveData<RpUserModel>()
+
+    fun getHomeData() {
+        getResponse(apiService::getHomeData) {
+            liveRpHomeDataModel.value = it
+        }
+    }
+
+    fun userLoginWithGmail(userModel: UserModel) {
+        getResponse(apiService::userLoginWithGmail, userModel) {
+            liveRpUserModel.value = it
+        }
+    }
+
+    fun userLogout() {
+        getResponse(apiService::userLogout) {
+            liveRpUserModel.value = it
+        }
+    }
 
     val postList = Pager(
         config = PagingConfig(
@@ -32,4 +57,5 @@ class HomeViewModel @Inject constructor(
         pagingSourceFactory = { postSource },
         initialKey = 1
     ).liveData.cachedIn(viewModelScope)
+
 }

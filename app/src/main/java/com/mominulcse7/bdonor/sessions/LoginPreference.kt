@@ -2,6 +2,8 @@ package com.mominulcse7.bdonor.sessions
 
 import android.content.Context
 import android.content.SharedPreferences
+import com.google.gson.Gson
+import com.mominulcse7.bdonor.model.UserModel
 import dagger.hilt.android.qualifiers.ApplicationContext
 import javax.inject.Inject
 
@@ -28,6 +30,20 @@ class LoginPreference @Inject constructor(@ApplicationContext context: Context) 
 
     fun gApiToken(): String {
         return pref.getString(apiToken, "") ?: ""
+    }
+
+    fun sUserModel(uModel: UserModel?) {
+        val editor = pref.edit()
+        editor.putString(userModel, Gson().toJson(uModel))
+        editor.apply()
+    }
+
+    fun gUserModel(): UserModel {
+        return try {
+            Gson().fromJson(pref.getString(userModel, "") ?: "", UserModel::class.java)
+        } catch (e: Exception) {
+            UserModel()
+        }
     }
 
 }

@@ -2,6 +2,9 @@ package com.mominulcse7.bdonor.sessions
 
 import android.content.Context
 import android.content.SharedPreferences
+import com.google.android.gms.tasks.Task
+import com.google.firebase.messaging.FirebaseMessaging
+import com.mominulcse7.bdonor.utils.logPrint
 import dagger.hilt.android.qualifiers.ApplicationContext
 import javax.inject.Inject
 
@@ -41,17 +44,17 @@ class AppPreference @Inject constructor(@ApplicationContext context: Context) {
         return token.ifEmpty { loadToken() }
     }
 
-    fun loadToken(): String {
+    private fun loadToken(): String {
         var token = ""
-//        FirebaseMessaging.getInstance().token
-//            .addOnCompleteListener { task: Task<String> ->
-//                if (!task.isSuccessful) {
-//                    return@addOnCompleteListener
-//                }
-//                token = task.result
-//                sDeviceToken(token)
-//            }
-
+        FirebaseMessaging.getInstance().token
+            .addOnCompleteListener { task: Task<String> ->
+                if (!task.isSuccessful) {
+                    return@addOnCompleteListener
+                }
+                token = task.result
+                sDeviceToken(token)
+            }
+        logPrint(token)
         return token
     }
 

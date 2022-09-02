@@ -6,6 +6,8 @@
         <entry key="../../../../../../layout/custom_preview.xml" value="0.165" />
         <entry key="app/src/main/res/drawable-v24/btn_rpl_toolbar_20dp.xml" value="0.187" />
         <entry key="app/src/main/res/drawable-v24/ic_google_gmail_search.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable-v24/ic_logout.xml" value="0.1005" />
+        <entry key="app/src/main/res/drawable-v24/ic_notification_color.xml" value="0.1005" />
         <entry key="app/src/main/res/drawable/btn_rpl_toolbar_20dp.xml" value="0.193" />
         <entry key="app/src/main/res/drawable/ic_accept_ok_valid.xml" value="0.193" />
         <entry key="app/src/main/res/drawable/ic_alert.xml" value="0.193" />

@@ -19,6 +19,14 @@
         <action
             android:id="@+id/action_postsF_to_loginF"
             app:destination="@id/loginF" />
+        <action
+            android:id="@+id/action_postsF_to_notificationF"
+            app:destination="@id/notificationF" />
     </fragment>
+    <fragment
+        android:id="@+id/notificationF"
+        android:name="com.mominulcse7.bdonor.views.fragments.NotificationF"
+        android:label="fragment_notification"
+        tools:layout="@layout/fragment_notification" />
 
 </navigation>
