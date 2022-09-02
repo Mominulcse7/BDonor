@@ -6,19 +6,19 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.mominulcse7.bdonor.R
-import com.mominulcse7.bdonor.databinding.FragmentNotificationBinding
 import com.mominulcse7.bdonor.databinding.FragmentProfileBinding
+import com.mominulcse7.bdonor.databinding.FragmentSettingsBinding
 
-class ProfileF : Fragment() {
+class SettingsF : Fragment() {
 
-    private lateinit var binding: FragmentProfileBinding
+    private lateinit var binding: FragmentSettingsBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
     }
 
     override fun onCreateView(lif: LayoutInflater, vg: ViewGroup?, sis: Bundle?): View {
-        binding = FragmentProfileBinding.inflate(lif, vg, false)
+        binding = FragmentSettingsBinding.inflate(lif, vg, false)
         return binding.root
     }
 }

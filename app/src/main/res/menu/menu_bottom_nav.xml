@@ -4,10 +4,11 @@
         android:id="@+id/mHome"
         android:icon="@drawable/ic_home"
         android:title="@string/home" />
+
     <item
-        android:id="@+id/mMessage"
-        android:icon="@drawable/ic_message"
-        android:title="@string/message" />
+        android:id="@+id/mNotification"
+        android:icon="@drawable/ic_notification"
+        android:title="@string/notifications" />
 
     <item
         android:id="@+id/mPlaceHolder"
@@ -17,8 +18,9 @@
         android:id="@+id/mProfile"
         android:icon="@drawable/ic_person_pin"
         android:title="@string/profile" />
+
     <item
-        android:id="@+id/settings"
+        android:id="@+id/mSettings"
         android:icon="@drawable/ic_settings"
         android:title="@string/setting" />
 </menu>

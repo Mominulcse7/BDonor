@@ -234,11 +234,17 @@ class MainActivity : AppCompatActivity(), NavigationBarView.OnItemSelectedListen
 
     override fun onNavigationItemSelected(item: MenuItem): Boolean {
         when (item.itemId) {
-            R.id.mProfile -> {
-                findNavController(R.id.navHostFragment).navigate(R.id.loginF)
-            }
             R.id.mHome -> {
                 findNavController(R.id.navHostFragment).navigate(R.id.postsF)
+            }
+            R.id.mNotification -> {
+                findNavController(R.id.navHostFragment).navigate(R.id.notificationF)
+            }
+            R.id.mProfile -> {
+                findNavController(R.id.navHostFragment).navigate(R.id.profileF)
+            }
+            R.id.mSettings -> {
+                findNavController(R.id.navHostFragment).navigate(R.id.settingsF)
             }
         }
         return true

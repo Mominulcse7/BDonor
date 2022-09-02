@@ -22,11 +22,27 @@
         <action
             android:id="@+id/action_postsF_to_notificationF"
             app:destination="@id/notificationF" />
+        <action
+            android:id="@+id/action_postsF_to_profileF"
+            app:destination="@id/profileF" />
+        <action
+            android:id="@+id/action_postsF_to_settingsF"
+            app:destination="@id/settingsF" />
     </fragment>
     <fragment
         android:id="@+id/notificationF"
         android:name="com.mominulcse7.bdonor.views.fragments.NotificationF"
         android:label="fragment_notification"
         tools:layout="@layout/fragment_notification" />
+    <fragment
+        android:id="@+id/profileF"
+        android:name="com.mominulcse7.bdonor.views.fragments.ProfileF"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/settingsF"
+        android:name="com.mominulcse7.bdonor.views.fragments.SettingsF"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" />
 
 </navigation>
