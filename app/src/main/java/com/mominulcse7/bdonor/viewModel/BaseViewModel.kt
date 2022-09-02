@@ -12,9 +12,9 @@ import kotlinx.coroutines.launch
 
 open class BaseViewModel : ViewModel() {
 
-    val isLoading = MutableLiveData<Boolean>()
-    private val networkError = MutableLiveData<String>()
-    private lateinit var application: Application
+    var isLoading = MutableLiveData<Boolean>()
+    var networkError = MutableLiveData<String>()
+    lateinit var application: Application
 
     //multipleParameter
     fun <T : Any, U : Any> getResponse(

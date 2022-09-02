@@ -13,7 +13,7 @@ interface ApiService {
     @GET("user/get_home_data")
     suspend fun getHomeData(): RpHomeDataModel
 
-    @GET("/user/loginWithGmail")
+    @GET("/user/login_with_gmail")
     suspend fun userLoginWithGmail(data: UserModel): RpUserModel
 
     @GET("/user/logout")

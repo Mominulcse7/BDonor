@@ -107,6 +107,7 @@ class LoginF : Fragment(), View.OnClickListener {
     }
 
     private fun observeViewModel() {
+        viewModel.application = activity.application
 
     }
 

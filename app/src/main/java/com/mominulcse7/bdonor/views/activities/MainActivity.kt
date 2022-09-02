@@ -85,6 +85,7 @@ class MainActivity : AppCompatActivity(), NavigationBarView.OnItemSelectedListen
     }
 
     private fun observeViewModel() {
+        viewModel.application = activity.application
         viewModel.getHomeData()
 
         viewModel.liveRpHomeDataModel.observe(this) {
